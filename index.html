@@ -31,7 +31,7 @@
     </nav>
 
     <!-- Banner Section -->
-    <header class="banner_section text-center text-white" style="background-color: #333a44; padding: 60px 0;">
+    <header class="banner_section text-center text-white" style="background-color: #333a44; padding: 80px 0;">
         <div class="container">
             <h1 class="display-4" style="color: #fefeff;">Arduino Project</h1>
             <h2 class="main_text" style="color: #ff8177;">Guess The Num</h2>
@@ -50,10 +50,10 @@
                 <div class="col-md-4" style="background-color: #a5a5a5; padding: 17px; border-radius: 5px;">
                     <h2 class="mt-4 about_text text-center" style="color: white;">ฟังก์ชันหลัก</h2>
                     <ul class="list-unstyled" style="color: whtie;">
-                        <li class="lorem_text">- สุ่มหมายเลขที่ผู้เล่นจะต้องเดา</li>
-                        <li class="lorem_text">- รับข้อมูลจากผู้เล่นผ่านปุ่มกด</li>
-                        <li class="lorem_text">- ตรวจสอบคำตอบเทียบกับหมายเลขที่สุ่ม</li>
-                        <li class="lorem_text">- แจ้งผลและรีเซ็ตเกมเมื่อผู้เล่นเดาถูกต้อง</li>
+                        <li class="lorem_text">- สุ่มหมายเลข: ฟังก์ชันนี้จะใช้ในการสุ่มหมายเลขที่ผู้เล่นจะต้องเดา โดยกำหนดช่วงของหมายเลขเป็นเลข 0-9 ทั้งหมด 3 หลัก</li>
+                        <li class="lorem_text">- รับข้อมูลจากผู้เล่น: ฟังก์ชันนี้จะรอรับการป้อนข้อมูลจากผู้เล่นผ่านปุ่มกด</li>
+                        <li class="lorem_text">- ตรวจสอบคำตอบ: ฟังก์ชันนี้จะเปรียบเทียบคำตอบของผู้เล่นกับหมายเลขที่สุ่มขึ้นมาจะมีการแสดงผลว่า "เลขที่รับเข้ามาตรงตามตำแหน่งกับเลขที่สุ่มมา" และ "เลขที่รับเข้ามามีอยู่ในเลขที่สุ่มมาแต่ไม่ตรงตามตำแหน่ง"</li>
+                        <li class="lorem_text">- แจ้งผลและรีเซ็ตเกม: ฟังก์ชันนี้เริ่มเมื่อผู้เล่นเดาตัวเลขที่สุ่มขึ้นมาถูกต้อง และมีให้เริ่มเกมใหม่</li>
                     </ul>
                 </div>
             </div>
@@ -63,21 +63,21 @@
     <!-- Product Section -->
     <section class="product_section py-5" style="background-color: #333a44;">
         <div class="container text-center">
-            <h2 class="product_text" style="color: #fff131;">อุปกรณ์</h2>
+            <h2 class="product_text" style="color: #ff8177;">อุปกรณ์</h2>
             <p class="long_text" style="color: #fefeff;">อุปกรณ์หลักที่ใช้ในการทำโปรเจคชิ้นงานนี้</p>
             <div class="row mt-4">
                 <div class="col-md-4">
-                    <img src="img/BB-LED-TL.jpg" class="img-fluid rounded mb-3" alt="LED Module">
-                    <h4 style="color: #fefeff;">LED Module</h4>
+                    <img src="images/led.jpg" class="img-fluid rounded mb-3" alt="LED Module">
+                    <h4 style="color: #fefeff;">LED Display Module</h4>
                     <p style="color: #cccccc;">หน้าจอแสดงผล 1 ตัว</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/7seg.jpg" class="img-fluid rounded mb-3" alt="Keypad">
+                    <img src="images/keypad.jpg" class="img-fluid rounded mb-3" alt="Keypad">
                     <h4 style="color: #fefeff;">Keypad</h4>
                     <p style="color: #cccccc;">แผ่นปุ่มกดเลข 1 แผ่น</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/sensor.png" class="img-fluid rounded mb-3" alt="Potentiometer">
+                    <img src="images/potentiometer.jpg" class="img-fluid rounded mb-3" alt="Potentiometer">
                     <h4 style="color: #fefeff;">Potentiometer</h4>
                     <p style="color: #cccccc;">ตัวหมุนเปิดปิด 1 ตัว</p>
                 </div>
@@ -99,12 +99,12 @@
     <!-- Member Section -->
     <section class="member_section py-5" id="member" style="background-color: #333a44;">
         <div class="container text-center">
-            <h2 class="member_text" style="color: #fff131;">Member</h2>
+            <h2 class="member_text" style="color: #ff8177;">Member</h2>
             <p class="long_text_member" style="color: #fefeff;">สมาชิกของโปรเจค</p>
             <div class="row justify-content-center mt-4">
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="img/Nam.png" class="card-img-top" alt="Pe">
+                        <img src="images/pe.png" class="card-img-top" alt="Pe">
                         <div class="card-body" style="background-color: #2d343e;">
                             <p class="card-text" style="color: #fefeff;">นายพงศ์ณวิชญ์ งามสวนพลู <br>65070293</p>
                         </div>
@@ -112,7 +112,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="img/Folk.png" class="card-img-top" alt="Dream">
+                        <img src="images/dream.jpg" class="card-img-top" alt="Dream">
                         <div class="card-body" style="background-color: #2d343e;">
                             <p class="card-text" style="color: #fefeff;">นายศุภกฤต ศรีชู <br>65070312</p>
                         </div>
