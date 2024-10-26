@@ -1,7 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Project-Phycom</title>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #131313;">
+        <div class="container">
+            <a href="/" class="navbar-brand" id="navbar__logo" style="color: #ff8177;">GUESS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="/" class="nav-link" style="color: #fefeff;">Code</a></li>
+                    <li class="nav-item"><a href="#demo" class="nav-link" style="color: #fefeff;">Video</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link" style="color: #fefeff;">Details</a></li>
+                    <li class="nav-item"><a href="#member" class="nav-link" style="color: #fefeff;">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <header class="banner_section text-center text-white" style="background-color: #333a44; padding: 60px 0;">
+        <div class="container">
+            <h1 class="display-4" style="color: #fefeff;">Arduino Project</h1>
+            <h2 class="main_text" style="color: #ff8177;">Guess The Num</h2>
+            <p class="lead" style="color: #fefeff;">เกมเดาตัวเลข: โครงงานเป็นประเภท Microcontroller กดเลขบน Numpad เพื่อสุ่มเลข 3 ตัว<br>ถ้าเดาเลขและตำแหน่งถูกหมดก็จะขึ้น You Win!</p>
+            <a href="https://github.com/Teset13118/PhysicalProject" class="btn mt-4" style="background-color: #fff131; color: #131313;">เพิ่มเติม</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about_section py-5" id="about" style="background-color: #f2f7fd;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="img/img2.jpeg" class="img-fluid rounded shadow" alt="About Image">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="about_text" style="color: #2d343e;">รายละเอียดโครงงาน</h2>
+                    <p class="lorem_text" style="color: #2d343e;">โครงงานนี้ใช้ Microcontroller ในการสุ่มตัวเลขที่ถูกต้องทั้งเลขและตำแหน่ง</p>
+                    <h5 class="mt-4" style="color: #2d343e;">ฟังก์ชันหลัก:</h5>
+                    <ul class="list-unstyled" style="color: #2d343e;">
+                        <li>- สุ่มหมายเลขที่ผู้เล่นจะต้องเดา</li>
+                        <li>- รับข้อมูลจากผู้เล่นผ่านปุ่มกด</li>
+                        <li>- ตรวจสอบคำตอบเทียบกับหมายเลขที่สุ่ม</li>
+                        <li>- แจ้งผลและรีเซ็ตเกมเมื่อผู้เล่นเดาถูกต้อง</li>
+                    </ul>
+                    <a href="https://github.com/66070312/Guess-the-number-" class="btn btn-outline-primary mt-3" style="border-color: #2d343e; color: #2d343e;">เพิ่มเติมที่ Github</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="product_section py-5" style="background-color: #333a44;">
+        <div class="container text-center">
+            <h2 class="product_text" style="color: #fff131;">อุปกรณ์</h2>
+            <p class="long_text" style="color: #fefeff;">อุปกรณ์หลักที่ใช้ในการทำโปรเจคชิ้นงานนี้</p>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="img/BB-LED-TL.jpg" class="img-fluid rounded mb-3" alt="LED Module">
+                    <h4 style="color: #fefeff;">LED Module</h4>
+                    <p style="color: #cccccc;">หน้าจอแสดงผล 1 ตัว</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/7seg.jpg" class="img-fluid rounded mb-3" alt="Keypad">
+                    <h4 style="color: #fefeff;">Keypad</h4>
+                    <p style="color: #cccccc;">แผ่นปุ่มกดเลข 1 แผ่น</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/sensor.png" class="img-fluid rounded mb-3" alt="Potentiometer">
+                    <h4 style="color: #fefeff;">Potentiometer</h4>
+                    <p style="color: #cccccc;">ตัวหมุนเปิดปิด 1 ตัว</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Demo Section -->
+    <section class="video_section py-5" id="demo" style="background-color: #f2f7fd;">
+        <div class="container text-center">
+            <h2 class="video_text" style="color: #2d343e;">Project Demo Video</h2>
+            <p class="long_text" style="color: #2d343e;">คลิปวิดีโอสาธิตการทำงานของ Arduino Project เกมเดาตัวเลข</p>
+            <div class="video_section_2 mt-4">
+                <iframe width="720" height="425" src="https://www.youtube.com/embed/TsHb14SGvG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Member Section -->
+    <section class="member_section py-5" id="member" style="background-color: #333a44;">
+        <div class="container text-center">
+            <h2 class="member_text" style="color: #fff131;">Member</h2>
+            <p class="long_text_member" style="color: #fefeff;">สมาชิกของโปรเจค</p>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/Nam.png" class="card-img-top" alt="Pe">
+                        <div class="card-body" style="background-color: #2d343e;">
+                            <p class="card-text" style="color: #fefeff;">นายพงศ์ณวิชญ์ งามสวนพลู <br>65070293</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/Folk.png" class="card-img-top" alt="Dream">
+                        <div class="card-body" style="background-color: #2d343e;">
+                            <p class="card-text" style="color: #fefeff;">นายศุภกฤต ศรีชู <br>65070312</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
