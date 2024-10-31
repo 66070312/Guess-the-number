@@ -9,7 +9,8 @@
 https://66070312.github.io/Guess-the-number/
 ## Clip VDO
 https://www.youtube.com/watch?v=0Fopl630zts&t=11s
-เนื่องจากตัว hardware จึงจำเป็นต้องเปลี่ยน demo จากตัว microcontroller จริงเป็นแบบจำลอง
+
+เนื่องจากตัว hardware มีปัญหาที่ไม่สามารถหาทางแก้ไขได้(รวมถึงการซื้อใหม่)จึงจำเป็นต้องเปลี่ยน demo จากตัว microcontroller แบบตัวจริงเป็นแบบจำลองซึ่งจะใช้ source code เดียวกัน
 ## Poster
 ## About Us 
 66070293 พงศ์ณวิชญ์ งามสวนพูล
