@@ -8,8 +8,8 @@
 ## Website
 https://66070312.github.io/Guess-the-number/
 ## Clip VDO
-[(https://www.youtube.com/watch?v=0Fopl630zts&t=11s)](https://www.youtube.com/watch?v=0Fopl630zts&t=11s)
-
+https://www.youtube.com/watch?v=0Fopl630zts&t=11s
+เนื่องจากตัว hardware จึงจำเป็นต้องเปลี่ยน demo จากตัว microcontroller จริงเป็นแบบจำลอง
 ## Poster
 ## About Us 
 66070293 พงศ์ณวิชญ์ งามสวนพูล
