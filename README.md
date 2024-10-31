@@ -14,6 +14,7 @@ https://www.youtube.com/watch?v=0Fopl630zts&t=11s
 ## Poster
 
 ## Source Code
+```
 #include <Keypad.h>
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
@@ -154,6 +155,7 @@ void lcdInit() {
   lcd.print(wrongPlace);
   lcd.setCursor(6,0);
 }
+```
 ## About Us 
 66070293 พงศ์ณวิชญ์ งามสวนพูล
 
