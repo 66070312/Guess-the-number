@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=0Fopl630zts&t=11s
 
 เนื่องจากตัว hardware มีปัญหาที่ไม่สามารถหาทางแก้ไขได้(รวมถึงการซื้อใหม่)จึงจำเป็นต้องเปลี่ยน demo จากตัว microcontroller แบบตัวจริงเป็นแบบจำลองซึ่งจะใช้ source code เดียวกัน
 ## Poster
-
+C:\Users\User\Documents\GitHub\Guess-the-number\poster\poster.jpg
 ## Source Code
 ```
 #include <Keypad.h>
